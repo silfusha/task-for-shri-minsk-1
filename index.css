@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 400 100%/1.5 Arial, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+
+}
+
+h1, h2, h3, ul, li, p {
+    margin-bottom: 1.5em;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.375rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+code {
+    font-size: .875em;
+    font-family: Menlo, Consolas, monospace;
+    padding: .2em;
+    background: rgba(0, 0, 0, .03);
+    border: dashed 1px rgba(0, 0, 0, .2);
+}
+
+.l-wrapper {
+    width: 90%;
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.media {
+    display: table;
+    width: 100%;
+}
+
+.media-img {
+    display: block;
+    width: 70%;
+}
+
+@media (min-width: 48.0625rem) {
+    .media-img {
+        vertical-align: middle;
+        display: table-cell;
+
+    }
+}
+
+.page-section {
+    margin-bottom: 3em;
+}
+
+.page-section:last-child {
+    margin-bottom: 6em;
+}
+
+.page-intro {
+    font-size: 1.375rem;
+    margin-top: 4.5em;
+    margin-bottom: 4.5em;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.page-footer {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: .875em;
+    text-align: center;
+    box-shadow: 0 0 .142857em rgba(0, 0, 0, .2);
+    background-color: #a7a6b6;
+}
+
+.about {
+    margin-bottom: 0;
+}
+
+.about-lead {
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.high {
+    font-weight: 600;
+}
+
+.skillset-intro {
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.portfolio-intro {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.intro {
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.skillset-item {
+    margin-bottom: 3em;
+
+}
+
+.description-item {
+    margin-bottom: 3em;
+}
+
+@media (min-width: 48.0625rem) {
+    .skillset-list {
+        zoom: 1;
+
+    }
+
+    .skillset-list:before, .skillset-list:after, .description-list:before, .description-list:after {
+        content: ' ';
+        display: table;
+    }
+
+    .skillset-list:after {
+        clear: both;
+    }
+
+    .skillset-item {
+        float: left;
+        width: 50%;
+    }
+
+    .description-item {
+        float: left;
+        width: 50%;
+    }
+
+    .description-list {
+        margin-left: 1.5em;
+        overflow: hidden;
+
+    }
+}
+
+.description-list {
+    margin-left: 1.5em;
+    overflow: hidden;
+
+}
+
+.work-url {
+    font-size: .875em;
+    font-family: Menlo, Consolas, monospace;
+    padding: .2em;
+    background: rgba(0, 0, 0, .03);
+    border: dashed 1px rgba(0, 0, 0, .2);
+}
+
+.work-url:hover {
+    background: #fff2a8;
+}
+
+.page {
+    background-color: #e1e0f0;
+}
+
+
